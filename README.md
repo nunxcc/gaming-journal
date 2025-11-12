@@ -1,4 +1,7 @@
 # 🎮 Gaming Journal
+![GitHub repo size](https://img.shields.io/github/repo-size/nunxcc/gaming-journal)
+![GitHub last commit](https://img.shields.io/github/last-commit/nunxcc/gaming-journal)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 Este projeto é o meu diário de jogos: um espaço onde registo o que estou a jogar, o rating de 0-10 e se completei ou dropei o jogo.
 
@@ -25,6 +28,8 @@ Alguns dos sites que consulto regularmente para planear o que jogar ou assistir:
 - Adicionar uma lista com os jogos que estou a jogar
 - Criar uma secção de reviews curtas
 - Publicar com GitHub Pages
+
+🌐 [Ver o site online](https://nunxcc.github.io/gaming-journal/)
 
 ## 🤝 Como Contribuir
 
