@@ -1,6 +1,6 @@
 # 🎮 Gaming Journal
 
-Este projeto é o meu diário de jogos — um espaço onde registo o que estou a jogar, as minhas opiniões e o que aprendo com cada experiência.
+Este projeto é o meu diário de jogos: um espaço onde registo o que estou a jogar, o rating de 0-10 e se completei ou dropei o jogo.
 
 ## 🕹️ Objetivo
 
