@@ -13,7 +13,7 @@ Criar um histórico pessoal de jogos e praticar Git, VS Code e GitHub enquanto o
 
 - **plan.md** → metas e ideias futuras
 - **inspiration.md** → sites e criadores que me inspiram
-- _(Opcional)_ uma página HTML para mostrar os jogos online
+- **index.html** uma página HTML para mostrar os jogos online
 
 ## 🌐 Fontes que uso
 
