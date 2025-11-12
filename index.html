@@ -5,21 +5,154 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>🎮 Gaming Journal</title>
   <style>
-    body {
-      background-color: #0e0e10;
-      color: #e0e0e0;
-      font-family: "Fira Code", monospace;
-      text-align: center;
-      padding: 3rem;
+    :root {
+      --bg: #0e0e10;
+      --card: #1c1c22;
+      --text: #e6e6e6;
+      --accent: #00bfff;
+      --muted: #aaaaaa;
+      --highlight: #ffd700;
     }
-    h1 { color: #00bfff; }
-    a { color: #ffd700; text-decoration: none; }
-    a:hover { text-decoration: underline; }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: "Fira Code", monospace;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 2.5rem 1rem 1.5rem;
+      border-bottom: 1px solid #222;
+    }
+
+    header h1 {
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    section {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    section:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 0 15px rgba(255, 215, 0, 0.15);
+    }
+
+    h2 {
+      color: var(--highlight);
+      margin-top: 0;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      background: #24242a;
+      margin: 0.4rem 0;
+      padding: 0.6rem 0.8rem;
+      border-radius: 10px;
+      transition: background 0.2s ease;
+    }
+
+    li:hover {
+      background: #2d2d33;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: var(--highlight);
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #222;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.95rem;
+      }
+    }
   </style>
 </head>
 <body>
-  <h1>🎮 Gaming Journal</h1>
-  <p>Bem-vindo ao meu diário de jogos!</p>
-  <p>Visita o projeto completo no <a href="https://github.com/nunxcc/gaming-journal">GitHub</a>.</p>
+  <header>
+    <h1>🎮 Gaming Journal</h1>
+    <p>O meu diário pessoal de jogos — o que jogo, o que avalio e o que quero explorar.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>🕹️ Jogos Atuais</h2>
+      <ul>
+        <li><strong>Football Manager 2026</strong> — 10h jogadas | Status: Em progresso | ⭐ Avaliação atual: <strong>6/10</strong></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>✅ Jogos Recentemente Completos</h2>
+      <ul>
+        <li><strong>Clair Obscur: Expedition 33</strong> — Terminado | ⭐ <strong>10/10</strong></li>
+        <li><strong>Disco Elysium: Final Cut</strong> — Terminado | ⭐ <strong>10/10</strong></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>💬 Mini Reviews</h2>
+      <ul>
+        <li><strong>Clair Obscur: Expedition 33:</strong> Visualmente incrível e intenso — <em>10/10</em></li>
+        <li><strong>Disco Elysium: Final Cut:</strong> Narrativa profunda e inesquecível — <em>10/10</em></li>
+        <li><strong>Football Manager 2026:</strong> Realista mas cansativo — <em>5/10</em></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>🌐 Fontes de Inspiração</h2>
+      <ul>
+        <li><a href="https://howlongtobeat.com" target="_blank">HowLongToBeat</a></li>
+        <li><a href="https://myanimelist.net" target="_blank">MyAnimeList</a></li>
+        <li><a href="https://www.metacritic.com" target="_blank">Metacritic</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>📜 Licenciado sob a MIT License | Feito por <a href="https://github.com/nunxcc" target="_blank">@nunxcc</a></p>
+  </footer>
 </body>
 </html>
