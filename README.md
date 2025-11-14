@@ -25,9 +25,7 @@ Alguns dos sites que consulto regularmente para planear o que jogar ou assistir:
 
 ## 🚀 Próximos Passos
 
-- Adicionar uma lista com os jogos que estou a jogar
-- Criar uma secção de reviews curtas
-- Publicar com GitHub Pages
+- Ir adicionando os jogos à medida que os completo
 
 🌐 [Ver o site online](https://nunxcc.github.io/gaming-journal/)
 
